@@ -4,6 +4,6 @@ import javax.xml.ws.Endpoint;
 
 public class HelloWorldWebServicePublisher {
     public static void main(String[] args) {
-        Endpoint.publish("http://localhost:8080/wss/hello", new HelloWorldWebServiceImpl());
+        Endpoint.publish("http://localhost:8080/", new HelloWorldWebServiceImpl());
     }
 }
